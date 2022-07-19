@@ -104,3 +104,27 @@ nav {
 .nav-list li:not(li:nth-child(3)):hover::after {
     height: 2px;
 }
+
+header {
+    width: 100%;
+    height: 20rem;
+    color: var(--text-light);
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px var(--text-light);
+}
+
+.left-side , .right-side {
+    margin: 0 10em;
+}
+
+header button {
+    margin-top: 1em;
+    border: none;
+    background-color: var(--light-blue);
+    color: var(--text-light);
+    padding: 0.2em 1em;
+    border-radius: 20px;
+}
