@@ -113,7 +113,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: solid 1px var(--text-light);
 }
 
 .left-side , .right-side {
@@ -127,4 +126,81 @@ header button {
     color: var(--text-light);
     padding: 0.2em 1em;
     border-radius: 20px;
+}
+
+.right-side img {
+    border-radius: 40px;
+    box-shadow: 10px 0 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.right-side img:hover {
+    transform: scale(0.97);
+}
+
+.about {
+    width: 100%;
+    height: 27rem;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    width: 100%;
+    height: 10em;
+    margin: 5em;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--light-blue);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-cnt > p {
+    font-weight: 300;
+    margin: 1em;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+    background-color: #E5E7EB;
+}
+
+.quote-box div {
+    position: relative;
+}
+
+blockquote {
+    font-weight: 300;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.quote-box div p {
+    position: absolute;
+    margin: 2em;
+    right: -2em;
 }
